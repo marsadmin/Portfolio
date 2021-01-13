@@ -1,38 +1,268 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>The Favorite's</title>
+	<title>Portfolio Isrand</title>
 	<link rel="stylesheet" href="assets/stylesheet/main.css">
-	<h1><a href="index.html">The Favorite's</a></h1>
-	<h1 class="Nightmo"><a href="Night Practice.html">Nightmode</a></h1>
+	<h1><a href="index.html">Portfolio Isrand</a></h1>
+		<div id="myNav" class="overlay">
+		
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+	<a href="Music.html">Stay</a>
+	<a href="Movies.html">Spot</a>
+	<a href="Foods.html">Active</a>
+	<a href="Drinks.html">Education</a>
+	<a href="Trains.html">Transport</a>
+	<a href="Animals.html">Map</a></li>
+	
+  </div>
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()" style="cursor:pointer"><h1>Menu</h1></span>
+<script>
+/* Open */
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+/* Close */
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
 		<body>
-			<div class="box2">
-				<nav>
-					<ul>
-						<li><a href="Music.html">Musics</a></li><!--
-						--><li><a href="Movies.html">Movie</a></li><!--
-						--><li><a href="Foods.html">Foods</a></li><!--
-						--><li><a href="Drinks.html">Drinks</a></li><!--
-						--><li><a href="Trains.html">Trains</a></li><!--
-						--><li><a href="Animals.html">Animals</a></li>
-					</ul>
-				</nav>
+							<!-- Load an icon library -->
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<div class="navbar">
+				<a class="active" href="Music.html"><i class="fa fa-fw fa-briefcase"></i> Stay</a>
+				<a href="Movies.html"><i class="fa fa-fw fa-search"></i> Spot</a>
+				<a href="Foods.html"><i class="fa fa-fw fa-walking"></i> Active</a>
+				<a href="Drinks.html"><i class="fa fa-fw fa-book"></i> Education</a>
+				<a href="Trains.html"><i class="fa fa-fw fa-bus"></i> Trasport</a>
+				<a href="Animals.html"><i class="fa fa-fw fa-map"></i> Map</a>
 			</div>
 		</body>
 </head>
 
 <body>
-	<h1>Are you interested in my favorite things?</h1>
-	<h2>If you are interested in,You can find new things you like.</h2>
-	<table style="text-align:center">
+	<!-- Slideshow container -->
+<div class="slideshow-container">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 10</div>
+    <img src="assets/images/pic1.jpg" style="width:100%">
+    <div class="text">This is my island</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 10</div>
+    <img src="assets/images/pic 2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 10</div>
+    <img src="assets/images/pic 3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="assets/images/Book Tree.png" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  
+<div class="mySlides fade">
+    <div class="numbertext">5 / 10</div>
+    <img src="assets/images/Nikuman.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 10</div>
+    <img src="assets/images/Donuts.png" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  
+    <div class="mySlides fade">
+    <div class="numbertext">7 / 10</div>
+    <img src="assets/images/Oreo.png" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  
+   <div class="mySlides fade">
+    <div class="numbertext">8 / 10</div>
+    <img src="assets/images/Doctor.png" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  
+   <div class="mySlides fade">
+    <div class="numbertext">9 / 10</div>
+    <img src="assets/images/Niku.PNG" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  
+   <div class="mySlides fade">
+    <div class="numbertext">10 / 10</div>
+    <img src="assets/images/ring.PNG" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<script>
+	var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+-------------------------------------------------------------------------
+	<h1>example</h1>
+	<h2>Example</h2>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <h2 style="text-align:center">Login with Social Media or Manually</h2>
+      <div class="vl">
+        <span class="vl-innertext">or</span>
+      </div>
+
+      <div class="col">
+        <a href="#" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+        </a>
+        <a href="#" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="#" class="google btn">
+          <i class="fa fa-google fa-fw"></i> Login with Google+
+        </a>
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          <p>Or sign in manually:</p>
+        </div>
+
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+      </div>
+
+    </div>
+  </form>
+</div>
+
+<div class="bottom-container">
+  <div class="row">
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Sign up</a>
+    </div>
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Forgot password?</a>
+    </div>
+  </div>
+</div>
+<!-- br -->
+<div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+		   <option value="usa">Japan</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+-------------------------------------------------------------------------
 	<footer>
 		<ul class="footer-menu">
-				<li><a href="Music.html">Musics</a></li> | <!--
-			--><li><a href="Movies.html">Movie</a></li> | <!--
-			--><li><a href="Foods.html">Foods</a></li> | <!--
+				<li><a href="Music.html">Stay</a></li> | <!--
+			--><li><a href="Movies.html">Spot</a></li> | <!--
+			--><li><a href="Foods.html">Active</a></li> | <!--
 			--><li><a href="Drinks.html">Drinks</a></li> | <!--
-			--><li><a href="Trains.html">Trains</a></li> | <!--
-			--><li><a href="Animals.html">Animals</a></li>
+			--><li><a href="Trains.html">Education</a></li> | <!--
+			--><li><a href="Animals.html">Map</a></li>
 		</ul>
 		<p>© Computer Skills 1B practice.</p>
 	</footer>
