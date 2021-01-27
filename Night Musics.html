@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>The Favorite's</title>
-	<link rel="stylesheet" href="assets/stylesheet/main3.css">
-	<h1><a href="Night Practice.html">The Favorite's</a></h1>
-	<h1><a href="Music.html">Unlock Nightmode</a></h1>
+	<title>Portfolio Isrand</title>
+	<link rel="stylesheet" href="assets/stylesheet/main.css">
+	<h1><a href="index.html" style="text-align:center">Portfolio Isrand</a></h1>
+	
+<div id="myNav" class="overlay">		
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+	<a href="Night Musics.html">Favorite musics</a>
+	<a href="3Ds.html">3Ds</a>
+	<a href="About us.html">About us</a>
+	
+  </div>
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()" style="cursor:pointer"><h1><i class="fa fa-fw fa-map"></i></h1></span>
+<script>
+/* Open */
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+/* Close */
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
 		<body>
-			<div class="box2">
-				<nav>
-					<ul>
-						<li><a href="Night Musics.html">Musics</a></li><!--
-						--><li><a href="Night Movies.html">Movie</a></li><!--
-						--><li><a href="Night Foods.html">Foods</a></li><!--
-						--><li><a href="Night Drinks.html">Drinks</a></li><!--
-						--><li><a href="Night Trains.html">Trains</a></li><!--
-						--><li><a href="Night Animals.html">Animals</a></li>
-					</ul>
-				</nav>
-			</div>
+							<!-- Load an icon library -->
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		</body>
 </head>
-
-<body>
-	<h1>My favorite Musics</h1>
-	<h2>Do you like song? I really love it! There are my favorite musics here.</h2>
-</body>
-
 <body>
 <div class="box">
 <h1>The Legends of EDM and NCS</h1>
@@ -120,15 +130,8 @@
 
 	
 <footer>
-		<ul class="footer-menu">
-				<li><a href="Music.html">Musics</a></li> | <!--
-			--><li><a href="Movies.html">Movie</a></li> | <!--
-			--><li><a href="Foods.html">Foods</a></li> | <!--
-			--><li><a href="Drinks.html">Drinks</a></li> | <!--
-			--><li><a href="Trains.html">Trains</a></li> | <!--
-			--><li><a href="Animals.html">Animals</a></li>
-		</ul>
 		<p>© Computer Skills 1B practice.</p>
+		<p>International college of technology</p>
 </footer>
 </body>
 </html>
